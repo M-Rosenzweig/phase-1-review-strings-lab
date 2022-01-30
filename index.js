@@ -11,4 +11,4 @@ const welcomeMessage = "Welcome to Flatbook, " + currentUser + '!';
 
 const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUserExcited} + !`
 
-const shortGreeting = "Welcome, " + initial + '!';
+const shortGreeting = `Welcome, " + ${currentUser.slice(0, 1)}!`
